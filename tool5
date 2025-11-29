@@ -1,0 +1,11 @@
+def multiply(a : int, b : int) -> int:
+    """Multiply two intergers. Use only if asked to calculate a product.
+    
+    Args:
+        a (int): The first interger
+        b (int): The second interger
+        
+    Returns:
+        int: output int    """
+    
+    return a * b
