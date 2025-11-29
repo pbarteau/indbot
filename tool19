@@ -1,0 +1,3 @@
+response = graph.invoke(
+    {"messages": "My name is Praxy"},
+     config=config)
