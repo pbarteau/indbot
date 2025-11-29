@@ -1,0 +1,3 @@
+response = graph.invoke({"messages": "give me the recent political news made yesterday and then calculate 3 multiplied by 5"})
+for m in response["messages"]:
+    m.pretty_print()
