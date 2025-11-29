@@ -1,0 +1,9 @@
+prompt = ChatPromptTemplate.from_messages(
+    [
+        ("system", "You are a customer care bot, tell me whether the given problem is a billing issue, technical issue or feedback."),
+        ("user", "issue: {issue}"),
+    ]
+)
+
+chain = prompt | llm
+chain.invoke({"issue": "Who am i supoosed to pay"}).content
