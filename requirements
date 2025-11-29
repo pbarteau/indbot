@@ -11,3 +11,4 @@ ddgs
 groq
 ipykernel
 langchain-groq
+langchain-tavily
