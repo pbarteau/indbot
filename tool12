@@ -1,0 +1,3 @@
+response = graph.invoke({"messages": "give me the recent political news made yesterday"})
+for m in response["messages"]:
+    m.pretty_print()
